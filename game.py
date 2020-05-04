@@ -12,6 +12,11 @@ guess = int(input("Try to guess the numnber: "))
 
 def guesstimaton(random_number):
 
+	try:
+		guess = int(random_number)
+	except:
+		print("please put in a valid number")		
+
 	print('Drumroll....')
 	time.sleep(2)
 	print('... still thinking...')
