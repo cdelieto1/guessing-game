@@ -12,6 +12,8 @@ guess = int(input("Try to guess the numnber: "))
 
 def guesstimaton(random_number):
 
+
+
 	try:
 		guess = int(random_number)
 	except:
